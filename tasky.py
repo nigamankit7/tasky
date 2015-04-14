@@ -74,7 +74,7 @@ USAGE = ('[-a]dd, [-c]lear, [-d]elete, [-e]dit, [-r]emove task, [-m]ove, ' +
          '[-n]ew list/re[-n]ame, [-s]ummary, [-t]oggle, [-q]uit: ')
 
 # Environment constants
-TASKY_DIR = os.path.join(os.environ['HOME'], '.tasky')
+TASKY_DIR = os.path.join(os.environ['USERPROFILE'], '.tasky')
 KEYS_FILE = os.path.join(TASKY_DIR, 'keys.txt')
 
 
@@ -523,3 +523,4 @@ def main(args):
 
 if __name__ == '__main__':
   main(sys.argv)
+h
